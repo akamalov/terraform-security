@@ -2,12 +2,7 @@ variable "rules_package_arns" {
   description = "Package arns you want to use for testing. By default it takes all the packages rules."
   type        = "list"
 
-  default = [
-    "arn:aws:inspector:us-west-2:758058086616:rulespackage/0-9hgA516p",
-    "arn:aws:inspector:us-west-2:758058086616:rulespackage/0-H5hpSawc",
-    "arn:aws:inspector:us-west-2:758058086616:rulespackage/0-JJOtZiqQ",
-    "arn:aws:inspector:us-west-2:758058086616:rulespackage/0-vg5GGHSD",
-  ]
+  default = []
 }
 
 variable "duration" {
